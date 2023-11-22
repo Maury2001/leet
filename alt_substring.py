@@ -1,4 +1,5 @@
-def lengthOfLongestSubstring(self, s):
+class Sol:
+ def lengthOfLongestSubstring(self, s="pwwkew"):
         char_index_map = {}
         max_len = 0
         start = 0
@@ -11,3 +12,8 @@ def lengthOfLongestSubstring(self, s):
             max_len = max(max_len, end - start + 1)
 
         return max_len
+
+res = Sol()
+p = res.lengthOfLongestSubstring()
+
+print(p)
